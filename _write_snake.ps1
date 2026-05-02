@@ -1,0 +1,1 @@
+﻿ = Get-Content _snake_content.txt -Raw; Set-Content -Path src/snakeAI.ts -Value  -Encoding UTF8 -NoNewline; Write-Host OK
